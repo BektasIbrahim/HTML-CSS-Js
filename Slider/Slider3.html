@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="Script/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="Script/jquery-3.1.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="Style/Slider2.css"/>
+<title>Başlıksız Belge</title>
+<style type="text/css">
+	.container
+	{
+		width:400px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:10px;
+		display:block;
+	}
+	.header
+	{
+		padding:10px;
+		margin:5px;
+		width:400px;
+		border:1px solid #000000;
+		font-size:12px;
+		font-weight:bold;
+		background-color:#990000;
+		color:#FFFFFF;
+		cursor:pointer;
+	}
+	.headerhover
+	{
+		padding:10px;
+		margin:5px;
+		width:400px;
+		border:1px solid #000000;
+		font-size:12px;
+		font-weight:bold;
+		background-color:#00CCFF;
+		color:#FFFFFF;
+		cursor:pointer;
+	}
+	.content
+	{
+		border:1px solid #800000;
+		display:none;
+		padding:10px;
+		margin:5px;
+		width:400px;
+		height:400px;
+	}
+	</style>
+    <script type="text/javascript" language="javascript">
+	
+		$(document).ready(function(){
+			
+		   $(".header").click(function(){
+			$(this).next("div").slideToggle(500).siblings("div.content").slideUp(500);
+			$(this).toggleClass("headerhover").siblings("div.headerhover").removeClass("headerhover").addClass("header");
+			})
+		});
+		</script>
+        	
+</head>
+
+
+<body>
+<div class="container">
+	<div class="header">		Kaledeki Yalnızlık	</div>
+    <div class="content">		<img src="Images/arazlar_ve_gcl__manzara.jpg" width="400" height="400" />	</div>
+    
+    <div class="header">		X-Men: First Class	</div>
+    <div class="content">	<img src="Images/manzara_3_1024x768.jpg" width="400" height="400" />	</div>
+    
+    <div class="header">		Felekten Bir Gece 2	</div>
+    <div class="content">	<img src="Images/manzara-resimleri-guzel.jpg" width="400" height="400" />	</div>
+    
+    <div class="header">			Koğuş			</div>
+    <div class="content">	<img src="Images/sonbahar_manzarase__yoldaki_yapraklar.jpg" width="400" height="400" />	</div>
+    </div>        
+ 
+ 
+</body>
+</html>

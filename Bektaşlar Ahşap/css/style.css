@@ -1,0 +1,331 @@
+body {
+    
+	background-image:url("../Images/background.jpg");
+    list-style-type: circle;
+}
+#cerceve {
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cerceve #manu {
+    width: 1200px;
+    height: 40px;
+    margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	text-align: center;
+}
+#cerceve #logo-banner {
+ width:auto;
+ height:auto;
+}
+#cerceve ul.menu{
+	text-align: center;
+	margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+#cerceve ul.menu li{
+	float: left;
+	width: 171px;
+	position: relative;
+	border-color: white;
+}
+#cerceve ul.menu li a{
+	background-color:darkgrey;
+	color: saddlebrown;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	border-right-style:inset;
+	border-left-style: inset;
+	border-bottom-style: inset;
+	border-top-style: inset;
+	}
+#cerceve ul.menu li a:hover{
+	font-family:Arial, Helvetica, sans-serif;
+	background-image: url("../Images/manu arka.jpg");
+	color: darkgrey;
+	font-size: 22px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	border-right-style: inset;
+	border-left-style: inset;
+	border-bottom-style: inset;
+	border-top-style: inset;
+	border-color:black;
+}
+#icerik{
+	width: 1200px;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 15px;
+	padding-left: 0px;
+	background-image: url("../Images/desnsiz düz arka plan.png");
+}
+#icerik ul h1{
+	margin-left: 80px;
+	margin-top: 10px;
+	font-size: 24px;
+}
+#icerik ul h2{
+	margin-left: 80px;
+	margin-top: 10px;
+	font-size: 24px;
+}
+#icerik ul h3{
+	margin-left: 80px;
+	margin-top: 10px;
+	font-size: 24px;
+}
+#urunlericerik{
+	width: 1200px;
+	height: 1100px;
+	margin-top: 15px;
+	background-image: url("../Images/desnsiz düz arka plan.png");
+}
+#icerik-bilgi{
+	width: 800px;
+	height: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-top: 15px;
+	padding-left: 400px;
+	background-image: url("../Images/desnsiz düz arka plan.png");
+}
+.sol{
+	width: 500px;
+    height: 1070px;
+	margin-top: 20px;
+	margin-left: 70px;
+	margin-right: 60px;
+	float: left;
+	background-image: url("../Images/desnsiz düz arka plan.png");	
+}
+.kapi{
+	width: 295px;
+	height: 440px;
+	margin-left: 102px;
+	float: left;
+	list-style-type: none;
+	color: black;
+	text-decoration: none;
+}
+.kapi a{
+	list-style-type: none;
+	text-decoration: none;
+	color:black;
+}
+.rkapi:hover{
+	width: 325px;
+	height: 450px;
+	margin-left: -20px;
+	float: left;
+}
+.pencere{
+	width: 350px;
+	height: 250px;
+	margin-top: 50px;
+	margin-left: 75px;
+	float: left;
+}
+.pencere a{
+	list-style-type:none;
+	text-decoration: none;
+	color: black;
+}
+.rpencere:hover{
+	width: 360px;
+	height: 260px;
+	margin-top: -10px;
+	margin-left: -30px;
+	float: left;
+}
+.kapikol{
+	width: 400px;
+	height: 250px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.kapikol a{
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+}
+.rkapikol:hover{
+	width: 420px;
+	height: 270px;
+	float: left;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+.sag{
+	width: 500px;
+	height: 1070px;
+	margin-right: 70px;
+	margin-top: 20px;
+	float: left;
+	background-image: url("../Images/desnsiz düz arka plan.png");
+}
+.ahsapkapi{
+	width: 295px;
+	height: 440px;
+	float: left;
+	margin-left: 125px;
+}
+.ahsapkapi a{
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+}
+.rahsapkapi:hover{
+	width: 260px;
+	height: 450px;
+	float: left;
+	margin-left: -10px;
+}
+.lakekapi{
+	width: 295px;
+	height: 440px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px;	
+}
+.lakekapi a{
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+}
+.rlakekapi:hover{
+	width: 315px;
+	height: 450px;
+	float: left;
+	margin-left: -10px;
+	margin-top: 0px;
+}
+#icerik-gatalog{
+	width: 1200px;
+	height: auto;
+	margin-top: 15px;
+	background-image:url("../Images/desnsiz düz arka plan.png");
+}
+#icerik-gatalog a{
+	margin-top: 25px;
+	margin-left: 240px;
+	margin-bottom: 50px;
+}
+.ilkfoto{
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+}
+.p-kapi{
+	width: 700px;
+	height: 950px;
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+	float: left;
+	margin-left: 250px;
+	margin-top: 25px;
+}
+.a-kapi{
+	width: 700px;
+	height: 900px;
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+	float: left;
+	margin-left: 250px;
+	margin-top: 25px;
+}
+.l-kapi{
+	width: 700px;
+	height: 1827px;
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+	float: left;
+	margin-left: 250px;
+    margin-top: 45px;
+}
+.a-pecere{
+	width: 700px;
+	height: 700px;
+	color:  black;
+	font-size: 25px;
+	margin-left: 250px;
+	margin-top: 40px;
+	float:  left;
+}
+#icerik-in{
+	width: 1200px;
+	height: auto;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	padding-left: 0px;
+}
+
+#icerik p{
+	padding-left: 100px;
+	padding-top: 0px;
+	font-weight: bold;
+	font-size: 30px;
+}
+#icerik ul{
+	color: black;
+	font-size: 22px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+}
+#icerik ul li{
+	margin-left: 30px;
+	font-size: 25px;
+}
+#icerik ul a{
+	padding-bottom:10px;
+}
+#footer{
+	width: 1200px;
+	height: 60px;
+	background-color: darkgrey;
+	line-height: 33px;
+	text-align: center;
+	margin-top: 20px;
+}
+#footer h1{
+	height: 33px;
+	width: 900px;	
+    margin-left: 30px;
+    left: 30px;
+	font-size: 17px;
+	float: left;
+	text-align: left;
+	color: black;
+}
+
+#footer h4{
+	height: 33px;
+	width: 230px;	
+    margin-right: 30px;
+    left: 30px;
+	line-height: 15px;
+	font-size: 17px;
+	float:right;
+	color: black;
+}

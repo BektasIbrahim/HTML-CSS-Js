@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="script/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="script/jquery-3.1.1.min.js"></script>
+<style type="text/css">
+#kutu {
+	background-color: #999;
+	height: 300px;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+</style>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Başlıksız Belge</title>
+<script type="text/javascript" src="script/script.js"></script>
+<script type="text/javascript">
+$(function()
+{
+	$('#gizle').click(function(){
+	
+		$('#kutu').hide(1000);
+	});
+	$('#goster').click(function(){
+	
+		$('#kutu').show(2000);
+});
+ $('#fadeOut').click(function(){
+
+ $('#kutu').fadeOut(400);
+ 	
+});
+$('#slideUp').click(function(){
+	
+	$('#kutu').slideUp(400);
+});
+
+$('#slideDown').click(function(){
+	
+	$('#kutu').slideDown(400);
+	
+});
+$('#animate').click(function(){
+	
+	$('#kutu').animate({"width":"200","height":"150"},1000);
+	$('#kutu').animate({"width":"200",},1000);
+	$('#kutu').animate({"width":"200","height":"150"},1000);
+	$('#kutu').animate({"width":"200","height":"150"},1000);
+	});
+	});
+</script>
+</head>
+
+<body>
+<a href="#" id="gizle">bas ve gör ne olacak ? &nbsp; &nbsp; &nbsp; &nbsp;</a>
+<a href="#" id="goster">goster &nbsp; &nbsp; &nbsp; &nbsp;</a>
+<a href="#" id="fadeOut">fadeOut &nbsp; &nbsp; &nbsp; &nbsp;</a>
+<a href="#" id="slideUp">slideUp &nbsp; &nbsp; &nbsp; &nbsp;</a>
+<a href="#" id="slideDown">slideDown &nbsp; &nbsp; &nbsp; &nbsp;</a>
+<a href="#" id="animate">animate</a>	
+<div id="kutu"></div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="Style/Style1.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Başlıksız Belge</title>
+<script type="text/javascript">
+
+function myResim(id){
+	document.getElementById("resim").innerHTML = "<img src=\""+ id +"\" />";
+}
+</script>
+</head>
+
+<body>
+<div id="container">
+  <div id="resim">
+ <img src="Images/arazlar_ve_gcl__manzara.jpg" />
+ </div>
+ <div id="kresim">
+ <a href="javascript:;" onClick="myResim('Images/r1.jpg');"><img src="Images/r1.jpg" /></a>
+ <a href="javascript:;" onClick="myResim('Images/r2.jpg');"><img src="Images/r2.jpg" /></a>
+ <a href="javascript:;" onClick="myResim('Images/r3.jpg');"><img src="Images/r3.jpg" /></a>
+ <a href="javascript:;" onClick="myResim('Images/r4.jpg');"><img src="Images/r4.jpg" /></a>
+ <a href="javascript:;" onClick="myResim('Images/r5.jpg');"><img src="Images/r5.jpg"/></a>
+</body>
+</html>

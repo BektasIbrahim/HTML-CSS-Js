@@ -1,0 +1,18 @@
+<script>
+
+var renk=prompt("renk kodu giriniz");
+switch (renk)
+{
+   case "1":document.write("<font color='#402000' size='20'>SAKARYA</font>");break;
+   case "2":document.write("<font color='#FF0000' size='20'>SAKARYA</font>");break;
+   case "3":document.write("<font color='#FF4000' size='20'>SAKARYA</font>");break;
+   case "4":document.write("<font color='#FFFF00' size='20'>SAKARYA</font>");break;
+   case "5":document.write("<font color='#006600' size='20'>SAKARYA</font>");break;
+   case "6":document.write("<font color='#0000FF' size='20'>SAKARYA</font>");break;
+   case "7":document.write("<font color='#5900B2' size='20'>SAKARYA</font>");break;
+   case "8":document.write("<font color='#313140' size='20'>SAKARYA</font>");break;
+   case "9":document.write("<font color='#FFFFFF' size='20'>SAKARYA</font>");break;
+   default:document.write("<font color='#FFFFFF' size='20'>SAKARYA</font>");break;
+}
+
+</script>

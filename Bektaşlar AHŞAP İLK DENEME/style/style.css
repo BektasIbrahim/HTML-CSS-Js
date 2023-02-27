@@ -1,0 +1,227 @@
+@charset "utf-8";
+body {
+	background-image: url(../resimler/arkaplan1.jpg);
+	background-repeat: repeat;
+}
+#kutu {
+	height: auto;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat: repeat;
+}
+#clear {
+	clear: both;
+}
+
+
+#logo-banner {
+	height: 160px;
+	width: 980px;
+	background-color: #FFF;
+}
+#menu {
+	height: 35px;
+	width: 980px;
+	margin-top: 5px;
+	background-image: url(../resimler/menu.fw.png);
+}
+#kutu #menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	line-height: 35px;
+}
+#kutu #menu ul li a {
+	display: block;
+	height: 35px;
+	width: 163px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	text-decoration: none;
+	color: #000;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	line-height: 35px;
+	text-align: center;
+}
+#kutu #menu ul li a:hover {
+	display: block;
+	height: 35px;
+	width: 163px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	text-decoration: none;
+	color: #003;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: bold;
+	line-height: 35px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #FADCA5;
+}
+#orta {
+	height: 320px;
+	width: 980px;
+}
+#orta-sol {
+	float: left;
+	height: 320px;
+	width: 725px;
+	margin-right: 10px;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-color: #170808;
+	color: #FFF;
+}
+
+#islerimiz {
+	background-attachment: scroll;
+	background-color: #99D9EA;
+	height: auto;
+	width: 725px;
+	height: 320px;
+	background-repeat: no-repeat;
+	text-align: justify;
+	overflow: scroll;
+	margin-left: auto;
+	margin-right: auto;
+	color: #170808;
+}
+
+#orta-sag {
+	float: left;
+	height: 320px;
+	width: 245px;
+	background-color: #170808;
+}
+#clearr {
+	clear: both;
+}
+#alt {
+	height: 180px;
+	width: 980px;
+	background-color: #170808;
+}
+#alt-bir {
+	float: left;
+	height: 150px;
+	width: 160px;
+	margin-right: 29px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 44px;
+	padding-top: 0px;
+	padding-left: 0px;
+}
+#direk {
+	background-image: url(../resimler/direk.png);
+	float: left;
+	height: 150px;
+	width: 20px;
+}
+
+
+
+#alt-iki {
+	float: left;
+	height: 150px;
+	width: 160px;
+	margin-right: 28px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 28px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#alt-üç {
+	float: left;
+	height: 150px;
+	width: 160px;
+	margin-right: 28px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 28px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#konular {
+	background-color: #FFFFFF;
+	height: 25px;
+	width: 970px;
+	line-height: 25px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 5px;
+	background-image: url(../resimler/menu.fw.png);
+	color: #170808;
+	font-size: 18px;
+}
+
+#alt-dört {
+	float: left;
+	height: 150px;
+	width: 160px;
+	margin-top: 0px;
+	margin-right: 27px;
+	margin-bottom: 0px;
+	margin-left: 27px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#clearrr {
+	clear: both;
+}
+#footer {
+	background-color: #FFFFFF;
+	height: 40px;
+	width: 980px;
+	line-height: 40px;
+	text-align: center;
+	font-weight: bold;
+	color: #170808;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../resimler/menu.fw.png);
+	background-repeat: no-repeat;
+	font-size: 18px;
+}
+.deneme{
+	width: 90%;
+	overflow: hidden;
+	list-style: none;
+	color: #00FFCC;
+	height: 300px;
+	background-color: #170808;
+	background-repeat: repeat;	
+}
+.deneme li{
+	width:20%;
+    float:left;
+    overflow:hidden;
+	height:300px;color:#fff;font-weight:bold;
+}
+.deneme:hover li{width:10%}
+.deneme li:hover{width:60%}
+.s1{background:#039;}
+.s2{background: #6C0;}
+.s3{background:#936;}
+.s4{background:#FC6;}
+.s5{background:#96C;}
+/* CSS Document */
+#hakkimizfoto {
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 700px;
+	text-align: justify;
+	overflow: scroll;
+}

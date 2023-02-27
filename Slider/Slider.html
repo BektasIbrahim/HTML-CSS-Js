@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript" src="Script/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="Script/jquery-3.1.1.min.js"></script>
+<script type="text/javascript"> 
+$(function(){ 
+
+var slider=0; 
+$.slider=function(toplam){ 
+$("#slider ul#buton li").removeClass("aktif"); 
+$("#slider ul#resim li").hide(); 
+
+if(slider<toplam-1){ 
+
+slider++; 
+
+$("#slider ul#buton li:eq("+slider+")").addClass("aktif"); 
+
+$("#slider ul#resim li:eq("+slider+")").fadeIn("fast"); 
+}else 
+{ 
+$("#slider ul#buton li:first").addClass("aktif"); 
+
+$("#slider ul#resim li:first").fadeIn("fast"); 
+slider=0; 
+
+} 
+
+} 
+var toplamli=$("#slider ul#resim li").length; 
+    /* güncellenen kısım */ 
+        for(var i=1;i<=toplamli;i++){ 
+            $("ul#buton ").append('<li><a href="">'+i+'</a></li>'); 
+        } 
+         
+var interval= setInterval('$.slider('+toplamli+')',2000); 
+$("#slider").hover(function(){ 
+clearInterval(interval); 
+},function(){ 
+
+interval= setInterval('$.slider('+toplamli+')',2000); 
+
+}); 
+
+
+$("#slider ul#buton li:first").addClass("aktif"); 
+$("#slider ul#resim li").hide(); 
+$("#slider ul#resim li:first").show(); 
+$("#slider ul#buton li").click(function(){ 
+var indis= $(this).index(); 
+$("#slider ul#buton li").removeClass("aktif"); 
+$(this).addClass("aktif"); 
+$("#slider ul#resim li").hide(); 
+$("#slider ul#resim li:eq("+indis+")").fadeIn("fast"); 
+slider=indis; 
+return false 
+
+
+
+} 
+); 
+}); 
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Başlıksız Belge</title>
+<style type="text/css">
+a{text-decoration:none;}
+ul,li{margin:0;padding:0;list-style-type:none;float:left;}
+#slider{width:800px;height:350px;position:relative;overflow:hidden;}
+#slider ul#buton{position:absolute;left:10px;bottom:10px;}
+#slider ul#buton li a{display:block; background-color:fff;padding:4px; margin-right:4px;}
+#slider ul#buton li.aktif a{background-color:#F60;}
+
+</style>
+</head>
+
+<body>
+<div id="slider">
+<ul id="resim">
+<li><a href="#"><img src="Images/arazlar_ve_gcl__manzara.jpg" /></a></li>
+<li><a href="#"><img src="Images/manzara_3_1024x768.jpg" /></a></li>
+<li><a href="#"><img src="Images/manzara-resimleri-guzel.jpg" /></a></li>
+<li><a href="#"><img src="Images/sonbahar_manzarase__yoldaki_yapraklar.jpg" /></a></li>
+</ul>
+<ul id="buton">
+
+</ul>
+</div>
+</body>
+</html>

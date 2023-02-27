@@ -1,0 +1,134 @@
+<style type="text/css">
+#body {
+	background-image:url(../Resimler/arkaplan3.jpg);
+	background-repeat: repeat;
+}
+body {
+	background-image: url(../Resimler/arkaplan3.jpg);
+	background-repeat: repeat;
+}
+#logo-banner {
+	height: 200px;
+	width: 1024px;
+	list-style-type: none;
+	margin-bottom: 9px;
+}
+#logo {
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin-right: 9px;
+	color:#FFF;
+	text-align:center;
+}
+#banner {
+	float: right;
+	height: 200px;
+	width: 815px;
+	color:#FFF;
+	text-align:center;
+}
+#menu {
+	background-color:#000;
+	height: 45px;
+	width: 1024px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+#icerik {
+	height: 500px;
+	width: 1024px;
+	margin-bottom: 9px;
+	margin-top: 9px;
+}
+#icerik-sol {
+	float: left;
+	height: 500px;
+	width: 815px;
+	margin-right: 9px;
+	color:#FFF;
+	text-align:center;
+}
+#icerik-sag {
+	float: right;
+	vertical-align: top;
+	height: 500px;
+	width: 200px;
+	margin-bottom: 9px;
+	color:#FFF;
+	text-align:center;
+
+}
+
+#footer {
+	background-color: #000;
+	height: 45px;
+	width: 1016px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+	line-height: 45px;
+	text-align: center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	color: #FFFFFF;
+	border-right-style:solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+#kutu {
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	list-style-type: none;
+	height: auto;
+}
+
+ul.menu {
+     margin: 0px;
+    padding: 0px;
+    list-style-type: none; 
+}
+ul.menu li {
+	float: left;
+    width: 256px;
+    position: relative;
+}
+ul.menu li a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	color: #FFFFFF;
+	text-decoration: none;
+	display: block;
+	padding-right: 5px;
+	text-align: center;
+	line-height: 45px;
+	margin-right: 2px;
+	font-weight: bold;
+	border-right-style:inset
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+ul.menu li a:hover
+{
+	font-family:Arial, Helvetica, sans-serif;
+    background-color: #000;
+    color:#900;
+    font-weight: bold;
+    text-decoration: none;
+	display: block;
+	padding-right: 5px;
+	text-align: center;
+	line-height: 45px;
+	margin-right: 2px;
+	font-weight: bold;
+	border-right-style:inset
+	border-bottom-style: solid;
+	border-left-style: solid;
+	font-size: 24px;
+}
+
+</style>

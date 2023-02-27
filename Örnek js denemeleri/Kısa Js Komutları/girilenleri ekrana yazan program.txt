@@ -1,0 +1,22 @@
+<script type="text/javascript" language="javascript">
+
+var isim=prompt("Adýnýzý Giriniz :");
+document.write("<br>");
+document.write(isim);
+
+var soyad=prompt("Soyadýnýz Giriniz :");
+document.write("<br>");
+document.write(soyad);
+
+var yaþ=prompt("Yaþýnýzý Giriniz :");
+document.write("<br>");
+document.write(yaþ);
+
+var sýnýf=prompt("Sýnýfýnýzý Giriniz :");
+document.write("<br>");
+document.write(sýnýf);
+
+var cinsiyet=prompt("Cinsiyetinizi Giriniz :");
+document.write("<br>");
+document.write(cinsiyet);
+</script>

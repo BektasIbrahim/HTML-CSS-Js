@@ -1,0 +1,5 @@
+<script>
+
+var isim="TRABZON",r=prompt("renk girin"),b=prompt("boyut girin");
+document.write("<font color='"+r+"' size='"+b+"'>"+isim+"</font>");
+</script>

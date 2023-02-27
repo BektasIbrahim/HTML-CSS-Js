@@ -1,0 +1,169 @@
+
+body {
+ background-color: white;
+ list-style-type: circle;
+}
+#cerceve {
+ width: 1200px;
+ height: auto;
+ margin-left: auto;
+ margin-right: auto;
+}
+#cerceve #menuu {
+ width: 1200px;
+ height: 40px;
+ margin-top: 0px;
+ margin-right: 0px;
+ margin-left: 0px;
+ padding-left: 0px;
+ padding-top: 6px;
+ padding-bottom: 6px;
+ text-align: center;
+backgroun-color: yellow;
+}
+#cerceve #logo-banner {
+ width:auto;
+ height:auto;
+}
+#cerceve ul.menu{
+ text-align: center;
+ margin: 0px;
+ padding: 0px;
+ list-style-type: none;
+}
+#cerceve ul.menu li{
+ float: left;
+ width: 300px;
+ position: relative;
+ border-color: darkblue;
+}
+#cerceve ul.menu li a{
+ background-color: grey;
+ color: black;
+ font-family: Bahnschrift SemiBold;
+ font-size: 30px;
+ text-decoration: none;
+ display: block;
+ text-align: center;
+ line-height: 40px;
+ border-right-style:solid;
+ border-left-style: solid;
+ border-bottom-style: solid;
+ border-top-style: solid;
+}
+
+#cerceve ul.menu li a:hover{
+ background-color: grey;
+ color: #2A2A2A;
+ font-family: Bahnschrift SemiBold;
+ font-size: 35px;
+ text-decoration: none;
+ display: block;
+ text-align: center;
+ line-height: 40px;
+ border-right-style:solid;
+ border-left-style: solid;
+ border-bottom-style: solid;
+ border-top-style: solid;
+border-color: black;
+}
+#cerceve #orta{
+ width: 1200px;
+ height: auto;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-top: 15px;
+ padding-left: 0px;
+ background-color: grey;
+}
+.turhal
+{
+width: 1180px;
+height: 700px;
+margin-left:10px;
+}
+#cerceve #orta ul li
+{
+font-weight: inherit;
+font-size: 16px;
+color: #00284d;
+}
+#cerceve #orta ul p
+{
+font-weight: underline;
+font-size: 22px;
+color: black;
+font-face:
+}
+#cerceve #orta h3
+{
+margin-left: 20px;
+margin-right: 20px;
+margin-bottom:20px;
+}
+#cerceve #orta h4
+{
+margin-left: 20px;
+margin-right: 20px;
+}
+#cerceve #orta .a1
+{
+margin-left: 20px;
+margin-right: 20px;
+width: 540px;
+height: 300px;
+}
+#cerceve #orta .a2
+{
+margin-left: 20px;
+margin-right: 20px;
+width: 540px;
+height: 300px;
+}
+#cerceve #orta .a3
+{
+margin-left: 20px;
+margin-right: 20px;
+width: 540px;
+height: 400px;
+}
+#cerceve #orta .a4
+{
+margin-left: 20px;
+margin-right: 20px;
+width: 540px;
+height: 400px;
+}
+#cerceve #orta .ses
+{
+margin-left: 50px;
+padding-top: 10px;
+}
+#footer{
+ width: 1200px;
+ height: 60px;
+ background-color: grey;
+ line-height: 33px;
+ text-align: center;
+ margin-top: 20px;
+}
+#footer h1{
+ height: 33px;
+ width: 240px;	
+ margin-left: 30px;
+ left: 30px;
+ font-size: 17px;
+ float: left;
+ text-align: center;
+ color: black;
+}
+#footer h2{
+ height: 33px;
+ width: 230px;	
+ margin-right: 30px;
+ left: 30px;
+ line-height: 15px;
+ font-size: 17px;
+ float:right;
+ color: black;
+}

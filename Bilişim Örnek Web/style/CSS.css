@@ -1,0 +1,156 @@
+body {
+background-color:#666;
+background-repeat: repeat;
+}
+#logo-banner {
+height: 200px;
+width: 1024px;
+list-style-type: none;
+margin-bottom: 9px;
+}
+#logo {
+float: left;
+height: 200px;
+width: 200px;
+margin-right: 9px;
+color:#FFF;
+text-align:center;
+}
+#banner {
+float: right;
+height: 200px;
+width: 815px;
+color:#FFF;
+text-align:center;
+}
+#menu {
+background-color:#000;
+height: 40px;
+width: 1024px;
+margin-top: 0px;
+margin-right: 0px;
+margin-left: 0px;
+padding-left: 0px;
+}
+#icerik {
+height: auto;
+width: 1024px;
+margin-bottom: 9px;
+margin-top: 9px;
+background-color: black;
+color: white;
+}
+#icerik .videodene {
+margin-left:20px;
+margin-bottom: 20px;
+}
+#icerik .sesdene {
+margin-left:20px;
+margin-bottom:20px;
+}
+#icerik ul h1 {
+margin-bottom: 10px;
+margin-top: 10px;
+background-color: black;
+color: white;
+margin-left: 350px;
+font-size: 40px;
+}
+#icerik ul {
+margin-bottom: 10px;
+margin-top: 10px;
+background-color: black;
+color: white;
+margin-left: 10px;
+font-size: 20px;
+margin-bottom: 20px;
+}
+#icerik-sag {
+float: right;
+height: 500px;
+width: 815px;
+margin-left: 9px;
+color:#FFF;
+text-align:center;
+}
+#icerik-sol {
+float: left;
+vertical-align: top;
+height: 500px;
+width: 200px;
+margin-bottom: 9px;
+color:#FFF;
+text-align:center;
+background-color:black;
+font -weight: bold;
+}
+
+#footer {
+background-color: #000;
+height: 40px;
+width: 1016px;
+margin-top: 0px;
+margin-right: 0px;
+margin-left: 0px;
+padding-left: 0px;
+line-height: 40px;
+text-align: center;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 23px; 
+color: #FFFFFF;
+border-right-style:solid;
+border-bottom-style: solid;
+border-left-style: solid;
+}
+#kutu {
+width: 1024px;
+margin-right: auto;
+margin-left: auto;
+list-style-type: none;
+height: auto;
+}
+
+ul.menu {
+margin: 0px;
+padding: 0px;
+list-style-type: none; 
+}
+ul.menu li {
+float: left;
+width: 256px;
+position: relative;
+}
+ul.menu li a {
+font-family:Arial, Helvetica, sans-serif;
+font-size: 21px;
+color: #FFFFFF;
+text-decoration: none;
+display: block;
+padding-right: 5px;
+text-align: center;
+line-height: 40px;
+margin-right: 2px;
+font-weight: bold;
+border-right-style:inset
+border-bottom-style: solid;
+border-left-style: solid;
+}
+ul.menu li a:hover
+{
+font-family:Arial, Helvetica, sans-serif;
+background-color: #fff;
+color:#000;
+font-weight: bold;
+text-decoration: none;
+display: block;
+padding-right: 5px;
+text-align: center;
+line-height: 40px;
+margin-right: 0px;
+font-weight: bold;
+border-right-style:inset
+border-bottom-style: solid;
+border-left-style: solid;
+font-size: 24px;
+}
+
